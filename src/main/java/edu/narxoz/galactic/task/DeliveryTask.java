@@ -27,7 +27,7 @@ public class DeliveryTask {
     public CelestialBody getDestination() { return destination; }
     public Cargo getCargo() { return cargo; }
     public TaskState getState() { return state; }
-    public void setState(TaskState state) { this.state = state; }
     public Drone getAssignedDrone() { return assignedDrone; }
+    public void setState(TaskState state) {this.state = state; }
     public void setAssignedDrone(Drone drone) { this.assignedDrone = drone; }
 }
